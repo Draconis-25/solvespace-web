@@ -8,8 +8,8 @@ This repository contains the source code of the official website of [SolveSpace]
 
 Prerequisites
 -------------
-
-This website uses [Bottle](https://bottlepy.org/docs/dev/).
+- Python 3.7+
+- [Bottle](https://bottlepy.org/docs/dev/).
 
 ### Linux
 
