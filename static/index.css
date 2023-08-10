@@ -173,3 +173,43 @@ nav a {
 .column p {
     padding: 0 2%;
 }
+
+.demo {
+    /* height: 100vh; */
+    text-align: center;
+}
+
+.demo h2 {
+    padding-bottom: 20px;
+}
+
+.demo-vid {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.demo-vid::after {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+}
+
+.demo-vid iframe {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    bottom: 0;
+    height: 40px;
+    text-align: center;
+}
+
+footer p {
+    vertical-align: middle;
+    line-height: 40px;
+}

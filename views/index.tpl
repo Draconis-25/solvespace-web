@@ -35,16 +35,24 @@
             <div class="column">
                 <img>
                 <h3>Easy to Use</h3>
-                <p> With a simple user interface everything is under your eye, under your control.</p>
+                <p>With a simple user interface everything is under your eye, under your control.</p>
             </div>
             <div class="column">
                 <img>
                 <h3>Free & Open Source</h3>
-                <p>
-                    With the GPLv3 license, SolveSpace is being distributed as FOSS.
+                <p>With the GPLv3 license, SolveSpace is being distributed as FOSS.
                 </p>
             </div>
         </div>
+    </section>
+    <section class="demo">
+        <h2>Wanna see for yourself?</h2>
+        <div class="demo-vid">
+            <iframe class="demo-vid" width="560" height="315" src="https://www.youtube-nocookie.com/embed/yUa3fnDbeWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+
     </section>
 
     % include('footer.tpl')
