@@ -1,4 +1,4 @@
-SolveSpace's website
+SolveSpace's website rework
 ====================
 
 This repository contains the source code of the official website of [SolveSpace], a parametric
@@ -9,7 +9,7 @@ This repository contains the source code of the official website of [SolveSpace]
 Prerequisites
 -------------
 
-The templating engine that generates this website is written in Perl and requires the `GD` module.
+This website uses [Bottle](https://bottlepy.org/docs/dev/).
 
 ### Linux
 

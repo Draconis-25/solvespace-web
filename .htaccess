@@ -1,4 +1,4 @@
-
+<!-- 
 RewriteEngine On
 
 RewriteRule ^$ https://solvespace.com/index.pl [R]
@@ -19,5 +19,5 @@ RedirectMatch 404 \.sh$
 <FilesMatch "\.slvs$">
     ForceType application/octet-stream
     Header set Content-Disposition attachment
-</FilesMatch>
+</FilesMatch> -->
 
