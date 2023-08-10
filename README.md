@@ -11,49 +11,10 @@ Prerequisites
 - Python 3.7+
 - [Bottle](https://bottlepy.org/docs/dev/).
 
-### Linux
-
-On Debian, Ubuntu, and compatible distributions the dependencies can be installed with:
-
-    apt-get install perl-base libgd-gd2-perl
-
-### macOS
-
-When using Homebrew, the dependencies can be installed with:
-
-    brew install perl libgd
-    cpan install gd
-
-### Windows
-
-On Windows 10, the dependencies can be installed using the Windows Subsystem for Linux,
-by first installing [WSL] and then following the [steps for Linux](#linux).
-
-On any version of Windows, the dependencies can be installed using [Cygwin]:
-
-  * `git`
-  * `make`
-  * `perl`, `perl-GD`
-
-[wsl]: https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
-[cygwin]: https://cygwin.com/
-
-Workflow
---------
-
-Before you start, fork the `solvespace-web` repository and clone it into any convenient directory:
-
-    git clone git@github.com:USERNAME/solvespace-web
-
-Then, verify that the prerequisites are installed correctly by running `make`. If this command
-succeeds, open the `html/index.html` file in your browser.
-
-You can modify the website as follows:
-
-  1. Change a `.pl` file to modify a page, or add an asset to `pics`, `vids` or `dl`;
-  2. (Re)generate HTML for every page and copy assets by invoking `make`;
-  3. Verify that the change is correct;
-  4. Commit the change and send a pull request.
+### Running
+```sh
+python main.py
+```
 
 License
 -------
