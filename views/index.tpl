@@ -16,7 +16,7 @@
         <div class="landing-content">
             <div class="textbox">
                 <h1>SolveSpace</h1>
-                <p>Open source parametric 2D/3D CAD</p>
+                <h2>Open source parametric 2D/3D CAD</h2>
                 <div class="buttons-container">
                     <a href="/download" class="button primary" style="margin-right: 15px;">Download</a>
                     <a href="/docs" class="button">Docs</a>

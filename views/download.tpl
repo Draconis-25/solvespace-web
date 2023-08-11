@@ -19,16 +19,17 @@
             <img src="static/ball-mill-view-2.jpg" alt="ss">
             <div class="textbox">
                 <h1>SolveSpace</h1>
+                <p class="platform-info">For Windows Vista-10, Linux, Mac</p>
                 <!-- <p>Open source parametric 2D/3D CAD</p> *} -->
                 <div class="buttons-container">
-                    <a href="/download" class="button primary" style="margin-right: 15px;">Download for Linux <span>3.1</span></a>
+                    <a href="https://github.com/solvespace/solvespace/releases/tag/v3.1" class="button download" target="_blank">Download on Github</a>
+                    <div class="version">3.1</div>
+                </div>
+                <div class="buttons-container" style="margin-top: 20px;">
+                    <a href="https://github.com/solvespace/solvespace/releases/tag/v3.1" class="button">Instructions & Help</a>
                 </div>
             </div>
         </div>
-
-    </section>
-    <section class="download-content">
-
     </section>
 
     % include('footer.tpl')
