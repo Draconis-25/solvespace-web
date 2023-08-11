@@ -11,9 +11,11 @@
 </head>
 
 <body>
-    % include('header.tpl')
-
-    <section class="landing">
+    <section class="forum-landing">
+        % include('header.tpl')
+        
+    </section>
+    <section class="forum">
 
     </section>
 

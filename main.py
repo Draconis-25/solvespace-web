@@ -25,21 +25,21 @@ def download():
 def community():
     return bottle.template('community')
 
+@app.route('/forum')
+def forum():
+	return bottle.template('forum')
+
 # ----------------------------
 # -- Redirecting to subdomains
 # ----------------------------
 @app.route('/learn')
 @app.route('/docs')
 def docs():
-	bottle.redirect('docs.solvespace.com/')
-
-@app.route('/forum')
-def forum():
-	bottle.redirect('forum.solvespace.com/')
+	bottle.redirect('https://docs.solvespace.com/')
 
 @app.route('/old')
 def old():
-	bottle.redirect('old.solvespace.com/')
+	bottle.redirect('https://old.solvespace.com/')
 
 # ----------------------------------------------------
 # - Adding static files to be accessed from .tpl files
