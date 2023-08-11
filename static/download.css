@@ -1,0 +1,44 @@
+.download-landing {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.download-features nav {
+    margin-bottom: 0 !important;
+}
+
+.download-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    top: calc(50% + 35px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.download-content .textbox {
+    display: inline-block;
+    text-align: right;
+}
+
+.download-content .textbox h1 {
+    font-size: 40px;
+}
+
+.download-content .textbox p {
+    font-size: 25px;
+}
+
+.download-content img {
+    /* height: 100px; */
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button {
+    margin-right: 0;
+}
