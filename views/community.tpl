@@ -7,7 +7,7 @@
     <title>SolveSpace</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/index.css">
 </head>
 
 <body>

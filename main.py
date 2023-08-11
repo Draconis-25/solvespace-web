@@ -10,9 +10,20 @@ def index():
     return bottle.template('index')
 
 @app.route('/examples')
+def examples():
+    return bottle.template('examples')
+
 @app.route('/features')
+def features():
+    return bottle.template('features')
+
 @app.route('/download')
+def download():
+    return bottle.template('download')
+
 @app.route('/community')
+def community():
+    return bottle.template('community')
 
 # ----------------------------
 # -- Redirecting to subdomains

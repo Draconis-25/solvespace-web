@@ -1,6 +1,6 @@
 <section class="navigation">
     <nav>
-        <a href="index.html">
+        <a href="/">
             <img src="static/solvespace.svg" alt="LOGO">
             <h1 class="logo">SOLVESPACE</h1>
         </a>
